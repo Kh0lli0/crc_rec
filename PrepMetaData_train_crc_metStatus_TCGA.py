@@ -35,7 +35,6 @@ slide_dir = '/athena/marchionnilab/scratch/lab_data/bagio/projects/colon/raw_dat
 slides = listdir(slide_dir)
 
 
-
 # make a dataframe: slide_id: slide ID! // case_id: patient ID
 MetaData_clam = pd.DataFrame({'slide_id': slides})
 
