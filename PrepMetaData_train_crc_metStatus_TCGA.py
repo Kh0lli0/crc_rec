@@ -11,7 +11,7 @@ import torchvision.models
 from sklearn.model_selection import train_test_split
 
 ######################################################
-# Read labels from Karen
+
 metadata = pd.read_csv('/athena/marchionnilab/scratch/lab_data/bagio/projects/colon/raw_data/colon_neoplasm.csv')
 # create a column called label ( met status)
 metadata['label'] = metadata['New Neoplasm Event Post Initial Therapy Indicator']
